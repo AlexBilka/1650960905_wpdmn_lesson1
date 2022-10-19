@@ -11,7 +11,7 @@
 const city = "Kharkiv",
   country = "Ukraine",
   population = 1419000,
-  football_stadium = true;
+  footballStadium = true;
 console.log(city, country, population, football_stadium);
 
 /* 
@@ -21,6 +21,12 @@ console.log(city, country, population, football_stadium);
 
     - высота 40см
     - ширина 70см
+
+    
+    — — / ЗАДАЧА №2:
+
+    Чтобы найти площадь прямоугольника,
+    надо его длину умножить на ширину, то есть формула "S = a * b"
 
     ps: каждая сущность должна находиться в отдельной переменной
 */
