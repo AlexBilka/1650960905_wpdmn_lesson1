@@ -12,7 +12,7 @@ const city = "Kharkiv",
   country = "Ukraine",
   population = 1419000,
   footballStadium = true;
-console.log(city, country, population, football_stadium);
+console.log(city, country, population, footballStadium);
 
 /* 
     Задание 2:
@@ -52,8 +52,8 @@ console.log(area);
 const time = 2,
   speedOfFirst = 95,
   speedOfSecond = 114;
-  let distance = (speedOfFirst + speedOfSecond) * time;
-  console.log(distance)
+let distance = (speedOfFirst + speedOfSecond) * time;
+console.log(distance);
 /* 
     Задание 4:
     
@@ -69,12 +69,12 @@ const time = 2,
 */
 
 const randomNumber1 = Math.floor(Math.random() * 100);
-if(randomNumber1 < 20) {
-    console.log("randomNumber1 меньше 20"); 
-} else if(randomNumber1 >50) {
-    console.log("randomNumber1 больше 50");
+if (randomNumber1 < 20) {
+  console.log("randomNumber1 меньше 20");
+} else if (randomNumber1 > 50) {
+  console.log("randomNumber1 больше 50");
 } else {
-    console.log("randomNumber1 больше 20, и меньше 50");
+  console.log("randomNumber1 больше 20, и меньше 50");
 }
 
 /* 
@@ -85,12 +85,12 @@ if(randomNumber1 < 20) {
 const randomNumber2 = Math.floor(Math.random() * 100);
 
 switch (true) {
-  case randomNumber2 < 20 :
+  case randomNumber2 < 20:
     console.log("randomNumber2 меньше 20");
     break;
-  case randomNumber2 > 50 :
+  case randomNumber2 > 50:
     console.log("randomNumber2 больше 50");
     break;
-  default :
+  default:
     console.log("randomNumber2 больше 20, и меньше 50");
 }
